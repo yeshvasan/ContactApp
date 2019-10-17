@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Application",
+    "slug": "Application",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "android":{
+      "package":"Friends.App"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "splash": {
+      "image": "./assets/and.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
